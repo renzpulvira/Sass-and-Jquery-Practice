@@ -1,0 +1,76 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-family: $font-stack;
+    box-sizing: border-box;
+}
+
+p {
+    line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    height: 6px;
+    background: url('http://ibrahimjabbari.com/english/images/hr-11.png')
+    repeat-x 0 0;
+    border: 0;
+}
+
+$pr:("pr-1", "pr-2", "pr-3", "pr-4", "pr-5");
+$pl:("pl-1", "pl-2", "pl-3", "pl-4", "pl-5");
+$pb:("pb-1", "pb-2", "pb-3", "pb-4", "pb-5");
+$pt:("pt-1", "pt-2", "pt-3", "pt-4", "pt-5");
+$p:("p-1", "p-2", "p-3", "p-4", "p-5");
+
+@each $pad in $pr {
+    $inc: 10;
+    $inc: $inc + 10;
+    .#{$pad} {
+        padding-right: $inc + px;
+    } 
+}
+
+
+@each $pad in $p {
+    $inc: 10;
+    $inc: $inc + 10;
+    .#{$pad} {
+        padding: $inc + px;
+    } 
+}
+
+
+@each $pad in $pt {
+    $inc: 10;
+    $inc: $inc + 10;
+    .#{$pad} {
+        padding-top: $inc + px;
+    } 
+}
+
+@each $pad in $pb {
+    $inc: 10;
+    $inc: $inc + 10;
+    .#{$pad} {
+        padding-bottom: $inc + px;
+    } 
+}
+
+@each $pad in $pl {
+    $inc: 10;
+    .#{$pad} {
+        padding-left: ($inc + $inc) + px;
+    } 
+}

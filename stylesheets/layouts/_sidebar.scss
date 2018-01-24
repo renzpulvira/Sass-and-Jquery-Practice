@@ -1,0 +1,15 @@
+.sidebar {
+    padding-left: 15px;
+    padding-top: 0;
+    .sidebar-inner {
+        border: 1px solid #e2e2e2;
+        padding: 10px;
+        font-size: 0.8em;
+        background: #f7f7f7;
+        z-index: 1;
+        input {width: 100%;}
+        p {
+            text-align: justify;
+        }
+    }
+}
