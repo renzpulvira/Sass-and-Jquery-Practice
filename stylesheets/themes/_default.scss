@@ -9,13 +9,16 @@ p {
 
 nav {
     margin-top: 1em;
-    li, a {
+    .links {
+
+      padding-top: 1px solid gray;
+      padding-bottom: 1px solid gray;
+
+      li, a {
         color: #444;
+      }
     }
-    .nav-links {
-        border-top: 1px solid #e2e2e2;
-        border-bottom: 1px solid #e2e2e2;
-    }
+
 }
 
 .date {

@@ -3,11 +3,31 @@ nav {
         padding: 0;
     }
 
+    .links {
+      width: 100%;
+      float: left;
+      border-top: 1px solid #e2e2e2;
+      border-bottom: 1px solid #e2e2e2;
+      padding: 0;
+      margin-bottom: 1em;
+    }
+
 
     .nav-links {
-        width: 100%;
+        float: left;
         li {
-            padding: 10px 13px;
+            padding: 2px 10px;
         }
     }
+
+
+    .nav-search {
+      padding: 0;
+      float: right;
+      li {
+        display: inline-block;
+        padding: 2px 10px;
+      }
+    }
+
 }

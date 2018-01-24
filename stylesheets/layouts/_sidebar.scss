@@ -1,15 +1,22 @@
 .sidebar {
-    padding-left: 15px;
-    padding-top: 0;
-    .sidebar-inner {
-        border: 1px solid #e2e2e2;
-        padding: 10px;
-        font-size: 0.8em;
-        background: #f7f7f7;
-        z-index: 1;
-        input {width: 100%;}
-        p {
-            text-align: justify;
-        }
+  padding-left: 15px;
+  padding-right: 0px;
+  padding-top: 0;
+  .sidebar-inner {
+    border: 1px solid #e2e2e2;
+    padding: 15px;
+    font-size: 0.8em;
+    background: #f7f7f7;
+    z-index: 1;
+    h4 {
+      margin-top: 0;
     }
+
+    input {
+      width: 100%;
+    }
+    p {
+      text-align: justify;
+    }
+  }
 }
